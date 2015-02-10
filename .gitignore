@@ -1,0 +1,8 @@
+*.swp
+*.swo
+*.swn
+*.pyc
+*.log
+*.sqlite
+*.sample
+features/settings.py
