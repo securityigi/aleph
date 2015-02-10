@@ -25,7 +25,7 @@ Ubuntu/Debian
 To have a better organization in your enviroment, we will make the installation of Aleph on /opt directory.
 
         cd /opt/
-        git clone https://github.com/merces/aleph.git --branch aleph-python --single-branch .
+        git clone https://github.com/igorrincon/aleph.git --branch aleph-python --single-branch .
     
 Copy the settings file:
 
