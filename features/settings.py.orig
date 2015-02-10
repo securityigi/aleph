@@ -42,8 +42,8 @@ SAMPLE_SUBMIT_FOLDER = None
 
 # Additional configuration
 
-	SECRET_KEY = 'Pu7s0m3cryp7l337here' #do not use this ;)
-	SAMPLE_SUBMIT_FOLDER= '../uploads/webui' #where samples will be submitted from webui
+SECRET_KEY = 'Pu7s0m3cryp7l337here' #do not use this ;)
+SAMPLE_SUBMIT_FOLDER= '../uploads/webui' #where samples will be submitted from webui
 
 # Logging configuration
 LOGGING  = {
