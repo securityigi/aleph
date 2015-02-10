@@ -74,16 +74,10 @@ Review your Elasticsearch installation URI
     ELASTICSEARCH_URI = '127.0.0.1:9200'
 
 
-Observation:
-
-Remember to verify folders permissioning.
-And Aleph is ready to run!
-
 #### Running 
-Go to Aleph folder, activate the virtual environment and run the bin/aleph-server.py as following:
+With the virtual enviroment already activated, give the execution permission to bin/aleph-server.py and run it as following:
 
-    cd /opt/aleph/
-    source venv/bin/activate
+    chmod +x bin/aleph-server.py
     ./bin/aleph-server.py
 
 And that's it. Check your logs under log/aleph.log to any troubleshooting.
@@ -92,17 +86,17 @@ And that's it. Check your logs under log/aleph.log to any troubleshooting.
 Edit the "SERVER_NAME" constant at your settings.py file.
 	ex: SERVER_NAME = 'mydomain.com:90'
 	
-then create the following entry:
+Change the following parameters with you own key (A key that only you know):
 
 	SECRET_KEY = 'Pu7s0m3cryp7l337here' #do not use this ;)
-	SAMPLE_SUBMIT_FOLDER= '/some/path' #where samples will be submitted from webui
 
 Setup your database:
 
 	python bin/db_create.py
 
-Run the	webui script:
+Give the execution permission and run the webui script:
 	
+	chmod +x bin/aleph-webui.sh
 	bin/aleph-webui.sh
 	
 To access your webinterface open your favorite browser at http://SERVER_NAME #That value you changed before.
