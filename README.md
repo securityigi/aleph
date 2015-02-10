@@ -52,7 +52,7 @@ We strongly suggest that you use python's virtual environment so you don't pollu
 
 Go to the desired Aleph installation folder and type the following to create and activate your virtual environment:
 
-    virtualenv venv # 'venv' can be any name
+    virtualenv venv ('venv' can be any name)
     source venv/bin/activate
 
 There will be the environment name (venv) appended to your PS1 variable:
@@ -90,6 +90,11 @@ Change the following parameters with you own key (A key that only you know):
 
 	SECRET_KEY = 'Pu7s0m3cryp7l337here' #do not use this ;)
 
+In another terminal window, activate the virtual enviroment:
+
+        cd /opt/aleph
+        source venv/bin/activate
+
 Setup your database:
 
 	python bin/db_create.py
@@ -99,7 +104,7 @@ Give the execution permission and run the webui script:
 	chmod +x bin/aleph-webui.sh
 	bin/aleph-webui.sh
 	
-To access your webinterface open your favorite browser at http://SERVER_NAME #That value you changed before.
+To access your webinterface open your favorite browser at http://SERVER_NAME:5000 #That value you changed before.
 	
 	Login: admin
 	Password: changeme12!
