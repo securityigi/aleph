@@ -16,10 +16,15 @@ The main Aleph daemon is a loose-coupled python application and library. These a
 
 ### Requirements
 In order to get a clean and nice install, you should download some requirements:
-Ubuntu/Debian
+
+#### Ubuntu
 
 	apt-get install python-pyrex libffi-dev libfuzzy-dev python-dateutil libsqlite3-dev python-pip git -y
-
+	
+#### Debian
+       wget http://ftp.de.debian.org/debian/pool/main/s/ssdeep/libfuzzy-dev_2.12-1_amd64.deb | dpkg -i -
+       apt-get install python-pyrex libffi-dev libfuzzy-dev python-dateutil libsqlite3-dev python-pip git -y
+       
 ###Preparing your Enviroment
 
 To have a better organization in your enviroment, we will make the installation of Aleph on /opt directory.
