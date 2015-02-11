@@ -29,7 +29,7 @@ In order to get a clean and nice install, you should download some requirements:
        
 ###Preparing your Enviroment
 
-To have a better organization in your enviroment, we will make the installation of Aleph on /opt directory.
+To have a better organization in your enviroment, we will make the installation of Aleph on /opt/ directory.
 
         cd /opt/
         git clone https://github.com/igorrincon/aleph.git --branch aleph-python --single-branch .
