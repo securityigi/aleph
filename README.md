@@ -22,7 +22,7 @@ In order to get a clean and nice install, you should download some requirements:
 	apt-get install python-pyrex libffi-dev libfuzzy-dev python-dateutil libsqlite3-dev python-pip git -y
 	
 #### Debian
-       working on this...
+       
        echo "deb http://ftp.de.debian.org/debian jessie main contrib non-free" >> /etc/apt/sources.list
        apt-get update && apt-get install libfuzzy-dev (**IF NEED TO REBOOT SOME SERVICE, YOU CAN DO IT.**)
        apt-get install python-pyrex libffi-dev python-dateutil libsqlite3-dev python-pip git -y
