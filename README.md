@@ -44,9 +44,15 @@ First if you don't have an [Elasticsearch](http://www.elasticsearch.org) instanc
 
 For a easy installation (already with JVM installation), do:
 
+#### Ubuntu
         cd aleph/
-        chmod +x install_elastics.sh
-        ./install_elastics.sh
+        chmod +x install_elasticsubnt.sh
+        ./install_elasticsubnt.sh
+        
+#### Debian
+        cd aleph/
+        chmod +x install_elasticsdeb.sh
+        ./install_elasticsdeb.sh
 
 Or use the installation guide of ElasticSearch for Debian/Ubuntu/Redhat/Fedora/CentOS (yum + apt basically) users, follow [this guide](http://www.elasticsearch.org/guide/en/elasticsearch/reference/current/setup-repositories.html).
 
