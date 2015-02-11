@@ -40,7 +40,7 @@ Copy the settings file:
 #### ElasticSearch
 First if you don't have an [Elasticsearch](http://www.elasticsearch.org) instance ready, you must install one.
 
-For a easy installation, do:
+For a easy installation (already with JVM installation), do:
 
         cd aleph/
         chmod +x install_elastics.sh
