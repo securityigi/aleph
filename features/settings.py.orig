@@ -1,7 +1,7 @@
 DEBUG = True
 
 SAMPLE_SOURCES = [
-    #('local', {'path': '/opt/aleph/uploads'}),
+    ('local', {'path': '/opt/aleph/uploads'}),
     #('mail', {'host': 'imap.exampl.com', 'username': 'youruser@example.com', 'password': 'yourpassword', 'root_folder': 'Inbox' })
 ]
 
@@ -43,7 +43,7 @@ SAMPLE_SUBMIT_FOLDER = None
 # Additional configuration
 
 SECRET_KEY = 'Pu7s0m3cryp7l337here' #do not use this ;)
-SAMPLE_SUBMIT_FOLDER= '../uploads/webui' #where samples will be submitted from webui
+SAMPLE_SUBMIT_FOLDER= '/opt/aleph/uploads' #where samples will be submitted from webui
 
 # Logging configuration
 LOGGING  = {
