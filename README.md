@@ -68,7 +68,7 @@ All python modules required are listed on the _requirements.txt_ file on the roo
 
     pip install -r requirements.txt
 
-If you wanna change the directory of samples source then edit settings.py and add a local source (a folder where Aleph will search for samples), by default we create the "uploads" directory. - **WARNING: ALEPH WILL MOVE THE SAMPLE THUS REMOVING FROM THE ORIGINAL FOLDER**) _The folder must exists as Aleph won't try to create them_
+If you wanna change the directory of samples source, edit settings.py and add a local source (a folder where Aleph will search for samples), by default we create the "uploads" directory. - **WARNING: ALEPH WILL MOVE THE SAMPLE THUS REMOVING FROM THE ORIGINAL FOLDER**) _The folder must exists as Aleph won't try to create them_
 
     SAMPLE_SOURCES = [
         ('local', {'path': '/opt/aleph/uploads'}),
