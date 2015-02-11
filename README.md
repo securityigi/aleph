@@ -24,7 +24,7 @@ In order to get a clean and nice install, you should download some requirements:
 #### Debian
        working on this...
        echo "deb http://ftp.de.debian.org/debian jessie main contrib non-free" >> /etc/apt/sources.list
-       apt-get update && apt-get install libfuzzy-dev (**IF NEED TO REBOOT SOME SERVICE, YOU CAN ACCEPT IT.**)
+       apt-get update && apt-get install libfuzzy-dev (**IF NEED TO REBOOT SOME SERVICE, YOU CAN DO IT.**)
        apt-get install python-pyrex libffi-dev python-dateutil libsqlite3-dev python-pip git -y
        
 ###Preparing your Enviroment
@@ -117,7 +117,7 @@ Give the execution permission and run the webui script:
 	chmod +x bin/aleph-webui.sh
 	bin/aleph-webui.sh
 	
-To access your webinterface open your favorite browser at http://SERVER_NAME:5000 #That value you changed before.
+To access your webinterface open your favorite browser at http://SERVER_NAME:5000 #That value you changed before. (By default is http://localhost:5000)
 	
 	Login: admin
 	Password: changeme12!
