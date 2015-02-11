@@ -6,7 +6,7 @@ from features import SampleManager
 tasker = Celery('aleph',
             broker='amqp://',
             backend='amqp://',
-            include=['aleph.tasks'])
+            include=['features.tasks'])
 
 tasker.conf.update(
     CELERYBEAT_SCHEDULE = {
