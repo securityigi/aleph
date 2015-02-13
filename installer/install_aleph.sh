@@ -1,11 +1,9 @@
 #!/bin/bash
 
+#Go to /opt/ and execute the command: apt-get install git -y && git clone https://github.com/igorrincon/aleph.git
+
 #Requirements
 apt-get install python-pyrex libffi-dev libfuzzy-dev python-dateutil libsqlite3-dev python-pip git -y
-
-#Preparing your Enviroment
-cd /opt/
-git clone https://github.com/igorrincon/aleph.git --branch master --single-branch
 
 #Copy settings file
 cp aleph/features/settings.py.orig aleph/features/settings.py
