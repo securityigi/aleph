@@ -3,6 +3,7 @@
 echo "Installing JVM..."
 
 #Installation of JVM, requirement of ElasticSearch
+echo "deb http://ftp.de.debian.org/debian wheezy main" >> /etc/apt/sources.list
 apt-get install default-jre -y
 
 echo "Installing ElasticSearch..."
